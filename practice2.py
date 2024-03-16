@@ -33,3 +33,13 @@
 #   print(i)
 # for i in name:
 #   print(name)
+
+age = int(input("Enter your age : "))
+
+print("Your age is : ",age)
+
+if(age>18):
+  print("You can drive")
+else:
+  less = 18-age
+  print("You cannot drive, your age is",less,"year less")
