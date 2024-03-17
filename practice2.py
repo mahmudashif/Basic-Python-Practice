@@ -34,12 +34,43 @@
 # for i in name:
 #   print(name)
 
-age = int(input("Enter your age : "))
+# age = int(input("Enter your age : "))
 
-print("Your age is : ",age)
+# print("Your age is : ",age)
 
-if(age>18):
-  print("You can drive")
-else:
-  less = 18-age
-  print("You cannot drive, your age is",less,"year less")
+# if(age>18):
+#   print("You can drive")
+# else:
+#   less = 18-age
+#   print("You cannot drive, your age is",less,"year less")
+
+
+# while True:
+#     age = int(input("Please enter your age: "))
+#     if age <= 18:
+#         print("Thank you for providing your age.")
+#         break
+#     else:
+#         print("You must be 18 years old or younger. Please provide a valid age.")
+
+
+# while True:
+#     a = int(input("Enter a number less then 100 and greater then 1 \n"))
+#     if(a>1 and a<100):
+#         print("Thanks for choosing a right value")
+#         break
+#     else:
+#         print("Enter a right value")
+# print("Thank You!")
+
+# from time import gmtime, strftime
+# strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
+
+x = int(input("Enter the value of x : "))
+match x:
+    case 0:
+        print("Your input the value ",x," is match with 0")
+    case 10:
+        print("Your input the value ",x," is match with Messi jersey")
+    case _:
+        print("Your input the value ",x," is match with nothing")
