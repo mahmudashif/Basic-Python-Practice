@@ -66,11 +66,53 @@
 # from time import gmtime, strftime
 # strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
 
-x = int(input("Enter the value of x : "))
-match x:
-    case 0:
-        print("Your input the value ",x," is match with 0")
-    case 10:
-        print("Your input the value ",x," is match with Messi jersey")
-    case _:
-        print("Your input the value ",x," is match with nothing")
+# x = int(input("Enter the value of x : "))
+# match x:
+#     case 0:
+#         print("Your input the value ",x," is match with 0")
+#     case 10:
+#         print("Your input the value ",x," is match with Messi jersey")
+#     case _:
+#         print("Your input the value ",x," is match with nothing")
+
+
+# name = "Ashif"
+# for i in name:
+#     print(i)
+#     if(i == "A"):
+#         print("This is something special\n",end="-")
+
+# colors = ['red','green','blue']
+# for color in colors:
+#     print(color.capitalize())
+#     for spelling in color:
+#         print(spelling.upper())
+
+# # Prompt the user to enter numbers separated by spaces
+# input_str = input("Enter numbers separated by spaces: ")
+
+# # # Split the input string into a list of strings using space as the delimiter
+# numbers_str = input_str.split()
+
+# # # Convert the list of strings to a list of integers
+# numbers = [num for num in numbers_str]
+
+# print("The list of numbers entered:", numbers)
+
+
+# Prompt the user to enter strings separated by spaces
+# input_str = input("Enter strings separated by spaces: ")
+
+# # Split the input string into a list of strings using space as the delimiter
+# strings_list = input_str.split()
+
+# print("The list of strings entered:", strings_list)
+
+
+i = int(input("Enter the number: "))
+print(i)
+while(i<=38):
+  i = int(input("Enter the number: "))
+  print(i)
+print("you are done")
+
